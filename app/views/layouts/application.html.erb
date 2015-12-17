@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Homework4</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="/css/styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	</head>
+
 <body>
+		<div id="wrapper">
+			<div id="navBar">
+				<div id="logo">Save the Bees</div>
+				<nav>
+					<ul>
+						<a href="index"><li>HOME</li></a>
+						<a href="situation"><li>situation</li></a>
+						<a href="solution"><li>solution</li></a>
+						<a href="howtoHelp"><li>how to help</li></a>
+					</ul>
+				</nav>
+			</div>
 
 <%= yield %>
 

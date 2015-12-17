@@ -1,0 +1,303 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 100%;
+	margin:0 auto;
+	padding: 0;
+}
+
+#navBar {
+	width:100%;
+	height:60px;
+	margin: 0;
+	/*background-color: #BB6B00;*/
+	background-color: #331F10;
+	padding:0;
+	position: fixed;
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+#logo {
+	/*height:40px;
+	width:100px;*/
+	float:left;
+	margin-left: 14%;
+	/*border: 1px solid blue;*/
+	margin-top:10px;
+	font-family: "Lobster";
+	color: white;
+	font-size: 32px;
+}
+
+nav {
+	float:right;
+	margin-right: 14%;
+	height: 60px;
+	padding: 0px;
+}
+
+nav ul {
+	list-style-type: none;
+	/*border: 1px solid blue;*/
+	height: 40px;
+	margin:0;
+	padding-top: 20px;
+}
+
+nav ul a li {
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	/*height:40px;*/
+	border: 1px solid rgba(0,0,0,0.0);
+}
+
+nav ul a li:hover {
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	/*padding: 10px;*/
+}
+
+nav ul a {
+	text-decoration: none;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color:white;
+	margin-top: 35px;
+	margin-right: 20px;
+	/*border: 1px solid blue;*/
+}
+
+#footer {
+	/*background-color: #FFAB37;*/
+	background-color: rgb(247,109,11);
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+	clear: both;
+}
+
+#content {
+	width: 100%;
+	margin:0 auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	/*background-color: rgb(247,109,11);*/
+	/*border: 1px solid black;*/
+}
+
+#banner {
+	background-image: url("../img/combBanner.jpg");
+	background-repeat: none;
+	width: 100%;
+	height:550px;
+	/*border: 1px solid red;*/
+}
+
+#sitbanner {
+	background-image: url("../img/hiveEntranceBanner.jpg");
+	background-repeat: none;
+	width: 100%;
+	height:550px;
+	/*border: 1px solid red;*/
+}
+
+#solbanner {
+	background-image: url("../img/honeyBee1.jpg");
+	background-repeat: none;
+	width: 100%;
+	height:550px;
+	/*border: 1px solid red;*/
+}
+
+#helpbanner {
+	background-image: url("../img/hives.jpg");
+	background-repeat: none;
+	width: 100%;
+	height:550px;
+	/*border: 1px solid red;*/
+}
+
+.left {
+	width: 300px;
+	height: 530px;
+	/*border: 1px solid black;*/
+	/*background-color: rgb(255,255,255);*/
+	border-radius: 10px;
+	float: left;
+	margin:0;
+	background-color: #FFAB37;
+	/*background-color: rgb(247,109,11);*/
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+.middle {
+	width: 300px;
+	height: 530px;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 0;
+	background-color: #FFAB37;
+	/*background-color: rgb(247,109,11);*/
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+.right {
+	width: 300px;
+	height: 530px;
+	border-radius: 10px;
+	float: right;
+	margin:0;
+	background-color: #FFAB37;
+	/*background-color: rgb(247,109,11);*/
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+.hthlink {
+	text-decoration: none;
+	color: white;
+}
+
+.hthlink:hover {
+	font-weight: bolder;
+}
+
+.icon1 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/caution.png");
+	margin:15px auto;
+}
+
+.icon2 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/combIcon.png");
+	margin:15px auto;
+}
+
+.icon3 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/sheild.png");
+	margin:15px auto;
+}
+
+.icon4 {
+	height: 64px;
+	width: 64px;
+	margin-top: 20px;
+	background-image: url("../img/signature.png");
+	margin:15px auto;
+	margin-top: 30px;
+}
+
+.icon5 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/beaker.png");
+	margin:15px auto;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.icon6 {
+	height: 64px;
+	width: 64px;
+	background-image: url("../img/social.png");
+	margin:15px auto;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: "Lobster";
+	text-align: center;
+	color: #331F10;
+}
+
+p {
+	margin-left:10px;
+	margin-right: 10px;
+
+}
+
+.divider {
+	width: 100%;
+	height:3px;
+	background-color: #331F10;
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+.contentWrap {
+	width: 960px;
+	margin: 20px auto;
+}
+
+
+.solpara {
+	margin-bottom: 20px;
+	margin-left: 70px;
+	margin-right: 70px;
+	
+}
+
+.solcontent {
+	width: 960px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	margin-top:20px;
+	text-align: left;
+	border-radius: 10px;
+	background-color: #FFAB37;
+	/*background-color: rgb(247,109,11);*/
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+.ccdContent {
+	width: 465px;
+	height: 450px;
+	border-radius: 10px;
+	float: right;
+	margin-bottom: 40px;
+	background-color: #FFAB37;
+	/*background-color: rgb(247,109,11);*/
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
+
+.ccdImg {
+	background-image: url("../img/colonyCollapse.jpg");
+	width: 465px;
+	height: 450px;
+	border-radius: 10px;
+	float: left;
+	margin:0;
+	background-color: #FFAB37;
+	margin-bottom: 40px;
+	-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+	box-shadow:         0px 7px 9px 0px rgba(50, 50, 50, 0.44);
+}
